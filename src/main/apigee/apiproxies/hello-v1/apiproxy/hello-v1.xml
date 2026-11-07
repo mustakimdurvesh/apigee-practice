@@ -1,0 +1,11 @@
+<!-- src/main/apigee/apiproxies/hello-v1/apiproxy/hello-v1.xml : the proxy's table of contents -->
+<APIProxy name="hello-v1">
+  <DisplayName>hello-v1</DisplayName>
+  <Description>Practice proxy that returns a fixed message</Description>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Policies>
+    <Policy>AM-Hello</Policy>
+  </Policies>
+</APIProxy>

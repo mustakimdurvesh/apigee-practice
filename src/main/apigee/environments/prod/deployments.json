@@ -1,0 +1,4 @@
+{
+  "proxies": [ { "name": "hello-v1" } ],
+  "sharedflows": []
+}

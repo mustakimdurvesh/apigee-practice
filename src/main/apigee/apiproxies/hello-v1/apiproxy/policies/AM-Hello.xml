@@ -1,0 +1,8 @@
+<!-- .../apiproxy/policies/AM-Hello.xml : writes the response body -->
+<AssignMessage name="AM-Hello">
+  <Set>
+    <Payload contentType="text/plain">Hello from Apigee again</Payload>
+    <StatusCode>200</StatusCode>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

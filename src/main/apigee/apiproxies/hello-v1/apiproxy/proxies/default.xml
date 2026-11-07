@@ -1,0 +1,14 @@
+<ProxyEndpoint name="default">
+  <PreFlow name="PreFlow">
+    <Request/>
+    <Response>
+      <Step><Name>AM-Hello</Name></Step>
+    </Response>
+  </PreFlow>
+  <Flows/>
+  <PostFlow name="PostFlow"><Request/><Response/></PostFlow>
+  <HTTPProxyConnection>
+    <BasePath>/hello/v1</BasePath>
+  </HTTPProxyConnection>
+  <RouteRule name="noroute"/>   <!-- no TargetEndpoint: the proxy answers by itself -->
+</ProxyEndpoint>
